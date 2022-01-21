@@ -25,7 +25,7 @@ return (
                             بزرگش تسکین داده اند.
                         </p>
 <div>
-    <Btn action={()=> window.open('/', "_self")} color="orange" text="فال حافظ" />
+    <Btn action={()=> window.open('/faal', "_self")} color="orange" text="فال حافظ" />
 </div>
                 </div>
 </div>
