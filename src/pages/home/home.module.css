@@ -1,0 +1,28 @@
+.right {
+    float: right;
+    display: flex;
+    margin: 11% 25%;
+    float: right;
+    margin-right: 7%;
+}
+.image {
+    float: right;
+}
+.text {
+    padding: 2% 2% 5% 30%;
+}
+.text p {
+    line-height: 34px;
+}
+.image2 {
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+.fullscreen {
+    background: linear-gradient(
+        -90deg
+        , #ffffff 0%, #dfe9f3 100%);
+        position: absolute;
+        height: 100vh;
+}
