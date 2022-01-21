@@ -2,6 +2,7 @@ import tarh1 from "../../assets/tarh1.png";
 import bookmg from "../../assets/bookmg.png";
 
 import css from "./home.module.css";
+import Btn from "../../components/btn";
 function Home(){
 return (
 <div className={css.fullscreen}>
@@ -23,7 +24,9 @@ return (
                             نیشابوری همه و همه همچون مرهمی بر زخم های کوچک و
                             بزرگش تسکین داده اند.
                         </p>
-
+<div>
+    <Btn action={()=> window.open('/', "_self")} color="orange" text="فال حافظ" />
+</div>
                 </div>
 </div>
  </div>
